@@ -1,0 +1,14 @@
+@media screen and (max-width:600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:600px){
+    .game-destaque .descricao{
+        width: 50%;
+    }
+}

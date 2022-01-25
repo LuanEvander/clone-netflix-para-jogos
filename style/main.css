@@ -1,0 +1,142 @@
+:root{
+    --branco: #ffffff; 
+    --preto: #171a21;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body{
+    background: linear-gradient(to right, #326293, #1f297c 80%);
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+}
+
+
+header .container{
+    background-color: var(--preto);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin: 8px 15px;
+    color: var(--branco);
+    letter-spacing: 0.01em;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+    transition: .2s ease-out;
+}
+
+/*Game em destaque*/
+.game-destaque{
+    font-size:16px;
+    background: linear-gradient(to left, rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/banner-destaque.jpg');
+    height: 400px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.game-destaque .descricao{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    font-family: 'Trebuchet MS';
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: .4s ease-out;
+}
+
+.botao:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.botao i{
+    margin-right: 4px;
+}
+
+.game-destaque .container{
+    width: 70%;
+}
+
+/*Categorias de Jogos*/
+.categoria{ 
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.generos{
+    padding: 5px 15px;
+    font-size: 25px;
+}
+
+.box-game{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+footer .container{
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.descricao-rodape{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+footer nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #AAA;
+    padding-right: 8px;
+}
+
+footer nav a:hover{
+    color: #FFF;
+    transition: .2s ease-out;
+    justify-content: space-between;
+}
