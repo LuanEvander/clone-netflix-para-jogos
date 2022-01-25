@@ -1,2 +1,2 @@
-# clone-netflix-para-jogos
+#Gameflix
 Réplica de home page do Netflix para jogos através da plataforma DIO
